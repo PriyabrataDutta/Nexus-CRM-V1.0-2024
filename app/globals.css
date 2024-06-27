@@ -1,0 +1,19 @@
+@import "../public/styles/fonts.css";
+body{
+    margin: 0px;
+    height: 100%;
+    overflow: scroll;
+}
+html {
+    font-size: 14px;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    height: 100vh;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+::-ms-reveal {
+    display: none;
+}
